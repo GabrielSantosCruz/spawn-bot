@@ -1,0 +1,1 @@
+Este é um pequeno script que fiz utilizando a biblioteca Pyautogui e um pequeno sistema de repetição para spamar a mensagem a quantidade de vezes que a pessoa escolher.
