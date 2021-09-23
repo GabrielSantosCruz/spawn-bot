@@ -1,12 +1,20 @@
 import pyautogui, time
+print('''  
+  ####    #####      ##     ##   ##  ##  ##            #####     ####    ######
+ ##  ##   ##  ##    ####    ##   ##  ### ##            ##  ##   ##  ##     ##
+ ##       ##  ##   ##  ##   ##   ##  ######            ##  ##   ##  ##     ##
+  ####    #####    ######   ## # ##  ######            #####    ##  ##     ##
+     ##   ##       ##  ##   #######  ## ###            ##  ##   ##  ##     ##
+ ##  ##   ##       ##  ##   ### ###  ##  ##            ##  ##   ##  ##     ##
+  ####    ##       ##  ##   ##   ##  ##  ##            #####     ####      ##''')
 
 a = input("Digite a palavra:\n")
 b = int(input("Quantas vezes devo spammar?:\n"))
 
 time.sleep(3)
 
-while b > 0:
-    b = b - 1
+for i in range(b):
+
     pyautogui.typewrite(a)
     pyautogui.press('enter')
 
